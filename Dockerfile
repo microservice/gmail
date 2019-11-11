@@ -10,11 +10,11 @@ RUN go get github.com/cloudevents/sdk-go
 
 RUN go get github.com/gorilla/mux
 
-WORKDIR /go/src/github.com/heaptracetechnology/gmail
+WORKDIR /go/src/github.com/oms-services/gmail
 
-ADD . /go/src/github.com/heaptracetechnology/gmail
+ADD . /go/src/github.com/oms-services/gmail
 
-RUN go install github.com/heaptracetechnology/gmail
+RUN go install github.com/oms-services/gmail
 
 ENTRYPOINT gmail
 

@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/cloudevents/sdk-go"
-	"github.com/heaptracetechnology/gmail/result"
+	"github.com/oms-services/gmail/result"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
 	"google.golang.org/api/gmail/v1"

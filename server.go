@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/heaptracetechnology/gmail/route"
+	"github.com/oms-services/gmail/route"
 	"log"
 	"net/http"
 )
